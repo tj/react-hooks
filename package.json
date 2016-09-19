@@ -1,0 +1,25 @@
+{
+  "name": "react-hooks",
+  "version": "1.0.0",
+  "description": "React stateless lifecycle hooks",
+  "author": "TJ Holowaychuk <tj@tjholowaychuk.com>",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "make build"
+  },
+  "keywords": [],
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "devDependencies": {
+    "axios": "^0.14.0",
+    "react-fatigue-dev": "github:tj/react-fatigue-dev#1594667"
+  },
+  "dependencies": {},
+  "files": [
+    "build"
+  ]
+}
