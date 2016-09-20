@@ -1,6 +1,5 @@
 
 import React, { Component, PropTypes } from 'react'
-import assert from 'assert'
 
 export default class Hook extends Component {
   static propTypes = {
